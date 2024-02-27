@@ -1,0 +1,60 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+header img {
+    width: 100px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto; /* Biarkan tinggi gambar menyesuaikan agar tidak terdistorsi */
+}
+
+.container {
+    max-width: 800px; /* Sesuaikan lebar container sesuai kebutuhan */
+    margin: 0 auto;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    background-color: aquamarine;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+footer {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
